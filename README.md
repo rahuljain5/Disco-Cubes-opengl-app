@@ -1,11 +1,10 @@
 # Disco-Cubes
-A Mini-Project on Computer Graphics
+A Mini-Project on Computer Graphics using OpenGL.
 
-Required libs:
-SOIL
-Gl/GLUT
+Required libraries:
+-SOIL
+-Gl/GLUT
 
-The cubes randomly choose between images.
-the minicubes randomly generate colors.
+The cubes randomly choose between images while the minicubes randomly generate colors.
+All cubes are placed on on a reflective surface, Also showcases displaying Rasterised text.
 
-For eductional purpose only.
