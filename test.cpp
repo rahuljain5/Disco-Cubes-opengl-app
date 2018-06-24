@@ -6,7 +6,7 @@ using namespace std;
 GLfloat vertices[][3] = {{-4.15, -4.15, -4.15}, {4.15, -4.15, -4.15}, {4.15, 4.15, -4.15}, {-4.15, 4.15, -4.15}, {-4.15, -4.15, 4.15}, {4.15, -4.15, 4.15}, {4.15, 4.15, 4.15}, {-4.15, 4.15, 4.15}};
 GLfloat vertices_small[][3] = {{-2.0, -2.0, -2.0}, {2.0, -2.0, -2.0}, {2.0, 2.0, -2.0}, {-2.0, 2.0, -2.0}, {-2.0, -2.0, 2.0}, {2.0, -2.0, 2.0}, {2.0, 2.0, 2.0}, {-2.0, 2.0, 2.0}};
 GLfloat _positions[][3] = {{-28, -4, 8}, {-37, -4, -37}, {28, -4, 10}, {37, -4, -37}};
-GLchar images[][25] = {"a41.jpg", "images__1_.jpg", "a7.jpg", "d3.jpg", "a8.jpg", "a6.jpg", "download.jpg", "d4.jpg", "a14.jpg", "1.jpg", "a9.jpg", "a10.jpg", "a11.jpg", "a12.jpg", "a13.jpg"};
+GLchar images[][25] = {"./images/a41.jpg", "./images/images__1_.jpg", "./images/a7.jpg", "./images/d3.jpg", "./images/a8.jpg", "./images/a6.jpg", "./images/download.jpg", "./images/d4.jpg", "./images/a14.jpg", "./images/1.jpg", "./images/a9.jpg", "./images/a10.jpg", "./images/a11.jpg", "./images/a12.jpg", "./images/a13.jpg"};
 GLchar img[25];
 GLfloat slack = 0.0;
 GLfloat _angle1 = 0.0;
@@ -200,7 +200,7 @@ void drawScene()
     drawCube(_angle);
     draw_mini_Cube(_angle1);
     distring(-7, 10, -20, " ");
-    distring(7.5, 8.7, -20, "- Rahul Jain,Poorna C");
+    distring(7.5, 8.7, -20, "- Rahul Jain");
     distring(-3, 10, -20, "-Disco Cubes-");
     glPopMatrix();
     glEnable(GL_STENCIL_TEST);      //Enable using the stencil buffer
