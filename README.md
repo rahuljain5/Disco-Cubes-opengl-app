@@ -12,24 +12,55 @@ Landing Page
 zoomed in
 <img src="Screenshots/zoomin.png" alt= "App Page" width="80%" align="center"/>
 
+## Usage
+
+### Zoom
+
+Zoom-Out
+- z
+
+Zoom-In
+- x
+
+### Move View
+
+Left
+- a
+
+Right
+- s
+
+Up
+- w
+
+Down
+- q
+
+### Rotate Cube
+
+Clockwise
+- Enter key / Mouse Left Click
+
+Anti-Clockwise
+- Backspace key / Mouse Right Click
 
 
 ## Required libraries:
 
 - SOIL (Simple OpenGL Image Loader)
-- Gl/GLUT 
+- Gl/GLUT
 
 ## Compiling the File
- 
+
 > g++ -o DiscoCubes main.cpp -lglut -lGLU -lGL -lSOIL
 
 ## References
 
-> About Soil
-  https://github.com/kbranigan/Simple-OpenGL-Image-Library
+ About Soil
+>https://github.com/kbranigan/Simple-OpenGL-Image-Library
 
-> About OpenGL 
-  https://www.opengl.org
+ About OpenGL 
+>https://www.opengl.org
 
 ## Licence 
 
