@@ -7,9 +7,11 @@ All cubes are placed on on a reflective surface, Also showcases displaying Raste
 ## Screenshots
 
 Landing Page
+
 <img src="Screenshots/app.png" alt= "App Page" width="80%" align="center"/>
 
-zoomed in
+Zoomed In
+
 <img src="Screenshots/zoomin.png" alt= "App Page" width="80%" align="center"/>
 
 ## Usage
