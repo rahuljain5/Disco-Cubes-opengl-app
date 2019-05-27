@@ -64,6 +64,7 @@ You can install the required dependencies using the following commands
 ## Compiling the File
 
 > g++ main.cpp -o DiscoCubes -lglut -lGLU -lGL -lSOIL
+>
 > ./DiscoCubes
 
 ## References
