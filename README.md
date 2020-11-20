@@ -7,9 +7,11 @@ All cubes are placed on on a reflective surface, Also showcases displaying Raste
 ## Screenshots
 
 Landing Page
+
 <img src="Screenshots/app.png" alt= "App Page" width="80%" align="center"/>
 
-zoomed in
+Zoomed In
+
 <img src="Screenshots/zoomin.png" alt= "App Page" width="80%" align="center"/>
 
 ## Usage
@@ -28,13 +30,13 @@ Left
 - a
 
 Right
-- s
+- d
 
 Up
 - w
 
 Down
-- q
+- s
 
 ### Rotate Cube
 
@@ -50,9 +52,20 @@ Anti-Clockwise
 - SOIL (Simple OpenGL Image Loader)
 - Gl/GLUT
 
+### Installing Prerequisites (OpenGL in Linux)
+#### On debian based systems
+You can install the required dependencies using the following commands
+
+    sudo apt-get update
+    sudo apt-get install freeglut3
+    sudo apt-get install freeglut3-dev
+    sudo apt-get install libsoil-dev
+
 ## Compiling the File
 
-> g++ -o DiscoCubes main.cpp -lglut -lGLU -lGL -lSOIL
+> g++ main.cpp -o DiscoCubes -lglut -lGLU -lGL -lSOIL
+>
+> ./DiscoCubes
 
 ## References
 

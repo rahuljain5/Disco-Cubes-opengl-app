@@ -132,24 +132,24 @@ void handleKeypress(unsigned char key, int x, int y)
     case 8: //Backspace
         slack = -6.0;
         break;
-    case 'z': //zoom in
+    case 'x': //zoom in
         zoom--;
         break;
-    case 'x': //zoom out
+    case 'z': //zoom out
         zoom++;
         break;
     case 'a': //move left
-        xoom++;
-        break;
-    case 's': //move right
         xoom--;
         break;
-    case 'q': //move down
-        yoom++;
+    case 'd': //move right
+        xoom++;
         break;
     case 'w': //move up
-        yoom--;
+        yoom++;
         break;
+    case 's': //move down
+        yoom--;
+        break;    
     }
 }
 //Print Text on Screen
